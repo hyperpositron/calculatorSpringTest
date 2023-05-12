@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import pro.sky.calculator.exeption.MyIllegalArgumentException;
 import pro.sky.calculator.services.CalculatorService;
 
-//@SpringBootTest
+@SpringBootTest
 class CalculatorApplicationTests {
 	CalculatorService service = new CalculatorService();
 
